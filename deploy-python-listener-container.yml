@@ -1,0 +1,4 @@
+- name: Deploy python-listener app
+  hosts: localhost
+  roles:
+    - python-listener
