@@ -13,7 +13,6 @@
 - name: Set docker-py python env
   set_fact:
     ansible_python_interpreter: "/tmp/venv/bin/python"
-
     
 - name: Deploy python-listener app in docker container
   docker_container:
