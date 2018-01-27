@@ -1,1 +1,1 @@
-# Python-CI
+# Deploy dockerized application
