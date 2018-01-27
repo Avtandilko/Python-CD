@@ -17,6 +17,6 @@
 - name: Deploy python-listener app in docker container
   docker_container:
     name: python-listener
-    image: python-listener
+    image: avtandilko/python-listener
     ports: "8080:8080"
 
