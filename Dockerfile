@@ -6,4 +6,3 @@ ADD ./src/default.conf /etc/python-listener/
 ADD ./src/python-listener.py /etc/python-listener/
 CMD ["python", "/etc/python-listener/python-listener.py"]
 EXPOSE 8080
-asdf
